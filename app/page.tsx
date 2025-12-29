@@ -11,7 +11,7 @@ export default function Home() {
     // Check if we're in a mini app context
     const checkContext = async () => {
       try {
-        const inMiniApp = await sdk.isInMiniApp();
+        await sdk.isInMiniApp();
         setIsReady(true);
       } catch (error) {
         console.error('Error checking mini app context:', error);

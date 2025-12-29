@@ -149,7 +149,7 @@ export async function generateMetadata(
 }
 
 export default async function SharePage(
-  { params, searchParams }: { params: Promise<{ username: string }>, searchParams: Promise<{ [key: string]: string | string[] | undefined }> }
+  { params: _params, searchParams: _searchParams }: { params: Promise<{ username: string }>, searchParams: Promise<{ [key: string]: string | string[] | undefined }> }
 ) {
   // Simply render the main FarQuotes component
   // The miniapp will handle everything including the shared quote context
