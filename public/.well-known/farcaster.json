@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjI1ODY2OSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweEU4NUI4NTE1ZGExOGJFMDlmMTQwNzY0RDdiQjFFQ0YzQjQ4QUZDOTUifQ",
+    "payload": "eyJkb21haW4iOiJmYXJxdW90ZXMta2hha2kudmVyY2VsLmFwcCJ9",
+    "signature": "lRTkLMGEZv4hVKpQsbb7M/Ri+KKMMO6dATW5edS7upNm298I9JMpTRcSBHBTxijXSvf1xUHuvZZ9jjLDnPYoNhs="
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "FarQuotes",
+    "iconUrl": "https://farquotes-khaki.vercel.app/.well-known/icon.png",
+    "homeUrl": "https://farquotes-khaki.vercel.app",
+    "buttonTitle": "✨ Generate Quote",
+    "splashImageUrl": "https://farquotes-khaki.vercel.app/.well-known/splash.png",
+    "splashBackgroundColor": "#7c3aed",
+    "webhookUrl": "https://farquotes-khaki.vercel.app/api/webhook",
+    "subtitle": "Share beautiful quotes",
+    "description": "Create and share beautiful quote images with your Farcaster community",
+    "primaryCategory": "social",
+    "tags": ["quotes", "inspiration", "creativity", "social"],
+    "heroImageUrl": "https://farquotes-khaki.vercel.app/hero.png",
+    "tagline": "Beautiful quotes for Farcaster",
+    "requiredChains": [],
+    "requiredCapabilities": [
+      "actions.ready",
+      "actions.composeCast",
+      "actions.openUrl",
+      "actions.viewProfile"
+    ]
+  }
+}
